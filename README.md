@@ -3,6 +3,8 @@
 [![Github Actions Status](https://github.com/eduardotlc/jupyterlab_ariakedark_theme/workflows/Build/badge.svg)](https://github.com/eduardotlc/jupyterlab_ariakedark_theme/actions/workflows/build.yml)
 An ariake dark palette based JupyterLab theme extension.
 
+[![PyPI version](https://badge.fury.io/py/jupyterlab-ariakedark-theme.svg)](https://badge.fury.io/py/jupyterlab-ariakedark-theme)
+
 [eduardotcampos@usp.br] [2023]
 
 ## Appearance
