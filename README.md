@@ -8,7 +8,7 @@
 
 [ci-badge]: https://github.com/eduardotlc/jupyterlab_ariakedark_theme/workflows/Build/badge.svg
 [ci]: https://github.com/eduardotlc/jupyterlab_ariakedark_theme/actions/workflows/build.yml
-[pypy-badge]: https://badge.fury.io/py/jupyterlab-ariakedark-theme.svg
+[pypi-badge]: https://badge.fury.io/py/jupyterlab-ariakedark-theme.svg
 [pypi]: https://badge.fury.io/py/jupyterlab-ariakedark-theme
 
 ![eduardotcampos@usp.br](eduardotcampos@usp.br) [2023]
