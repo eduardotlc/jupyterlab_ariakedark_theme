@@ -1,5 +1,51 @@
 @import url('./variables.css');
 
+/* Change the colour of linenumbers */
+.CodeMirror-linenumber {
+  padding: 0 3px 0 5px;
+  min-width: 20px;
+  text-align: right;
+  color: #5c7999;
+  white-space: nowrap;
+}
+
+/* This is the region where the linenumbers are */
+.CodeMirror-gutters {
+  border-right: 1px solid var(--horizon-dark-bg-hl);
+  background-color: #93ddfb;
+  white-space: nowrap;
+}
+
+/* Do some nice things with brackets */
+div.CodeMirror span.CodeMirror-matchingbracket {
+  color: var(--horizon-function);
+  border-bottom: 1px #7673d0;
+  line-height: 1;
+}
+
+div.CodeMirror span.CodeMirror-nonmatchingbracket {
+  color: #e05252;
+  border-bottom: 1px solid var(--horizon-dark-red-1);
+  line-height: 0.55;
+}
+
+.CodeMirror-matchingtag {
+  background: #329c67;
+}
+
+.CodeMirror-activeline-background {
+  background: #45447c;
+}
+
+/*.CodeMirror-selected {*/
+/*  background: var(--horizon-selection);*/
+/*}*/
+
+/* selected text highlight */
+/*.CodeMirror-focused .CodeMirror-selected {*/
+/*  background: var(--horizon-selection);*/
+/*}*/
+
 /* Set the default typography for monospace elements */
 tt,
 code,
