@@ -2,7 +2,14 @@
 
 **An ariake dark palette based JupyterLab theme extension.**
 
-[![Github Actions Status](https://github.com/eduardotlc/jupyterlab_ariakedark_theme/workflows/Build/badge.svg)](https://github.com/eduardotlc/jupyterlab_ariakedark_theme/actions/workflows/build.yml) | [![PyPI version](https://badge.fury.io/py/jupyterlab-ariakedark-theme.svg)](https://badge.fury.io/py/jupyterlab-ariakedark-theme)
+|       build       |          PyPi         |
+| :---------------: | :-------------------: |
+| [![ci-badge]][ci] | [![pypi-badge]][pypi] |
+
+[ci-badge](https://github.com/eduardotlc/jupyterlab_ariakedark_theme/workflows/Build/badge.svg)
+[ci](https://github.com/eduardotlc/jupyterlab_ariakedark_theme/actions/workflows/build.yml)
+[pypy-badge](https://badge.fury.io/py/jupyterlab-ariakedark-theme.svg)
+[pypi](https://badge.fury.io/py/jupyterlab-ariakedark-theme)
 
 ![eduardotcampos@usp.br](eduardotcampos@usp.br) [2023]
 
