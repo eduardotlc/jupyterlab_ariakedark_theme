@@ -11,13 +11,13 @@
 [pypi-badge]: https://badge.fury.io/py/jupyterlab-ariakedark-theme.svg
 [pypi]: https://badge.fury.io/py/jupyterlab-ariakedark-theme
 
-![eduardotcampos@usp.br](eduardotcampos@usp.br) [2023]
+[eduardotcampos@usp.br](eduardotcampos@usp.br) [2023]
 
 ## Appearance
 
-![Example 1](/images/jupyterlab_ariakedark_1.png)
+![Example 1](./images/jupyterlab_ariakedark_1.png)
 
-![Example 2](/images/jupyterlab_ariakedark_2.png)
+![Example 2](./images/jupyterlab_ariakedark_2.png)
 
 ## Requirements
 
