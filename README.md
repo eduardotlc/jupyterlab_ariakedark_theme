@@ -2,7 +2,7 @@
 
 **An ariake dark palette based JupyterLab theme extension.**
 
-|       build       |          PyPi         |
+|       build       |         PyPi          |
 | :---------------: | :-------------------: |
 | [![ci-badge]][ci] | [![pypi-badge]][pypi] |
 

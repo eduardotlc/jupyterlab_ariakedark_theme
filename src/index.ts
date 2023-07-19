@@ -14,7 +14,9 @@ const plugin: JupyterFrontEndPlugin<void> = {
   autoStart: true,
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
-    console.log('JupyterLab extension jupyterlab_ariakedark_theme is activated!');
+    console.log(
+      'JupyterLab extension jupyterlab_ariakedark_theme is activated!'
+    );
     const style = 'jupyterlab_ariakedark_theme/index.css';
 
     manager.register({
