@@ -11,7 +11,7 @@
 [pypi-badge]: https://badge.fury.io/py/jupyterlab-ariakedark-theme.svg
 [pypi]: https://badge.fury.io/py/jupyterlab-ariakedark-theme
 
-[eduardotcampos@usp.br](eduardotcampos@usp.br) [2023]
+eduardotcampos@usp.br [2023]
 
 ## Appearance
 
