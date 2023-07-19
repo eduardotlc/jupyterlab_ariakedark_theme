@@ -361,9 +361,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-collaborator-color7: #85b1e0;
 
   /* File or activity icons and switch semantic variables */
-
-
-  --jp-jupyter-icon-color: #de97f2; 
+  --jp-jupyter-icon-color: #de97f2;
   --jp-notebook-icon-color: #de97f2;
   --jp-json-icon-color: #dda2f6;
   --jp-console-icon-background-color: #3b5364;
