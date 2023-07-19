@@ -159,10 +159,10 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* Defaults use Material Design specification */
   --jp-content-font-color0: #a3bed8;
-  --jp-content-font-color1: #92b5d8; 
+  --jp-content-font-color1: #92b5d8;
   --jp-content-font-color2: #81acd8;
   --jp-content-font-color3: #5094d8;
-  --jp-content-link-color:  #7e7edd;
+  --jp-content-link-color: #7e7edd;
   --jp-content-font-family: -apple-system, blinkmacsystemfont, 'Segoe UI',
     helvetica, arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol';
@@ -218,7 +218,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-brand-color2: #5fa6a7;
   --jp-brand-color3: #a7d3fb;
   --jp-accent-color0: #7e7edd;
-  --jp-accent-color1: #7a69dd; 
+  --jp-accent-color1: #7a69dd;
   --jp-accent-color2: #5245dd;
   --jp-accent-color3: #a398dd;
 
@@ -229,7 +229,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-warn-color2: #cea486;
   --jp-warn-color3: #cea091;
   --jp-error-color0: #bf2b52;
-  --jp-error-color1: #bf3d64;;
+  --jp-error-color1: #bf3d64;
   --jp-error-color2: #bf4c67;
   --jp-error-color3: #bf5384;
   --jp-success-color0: #4acead;
@@ -240,7 +240,6 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-info-color1: #a186f4;
   --jp-info-color2: #b7a3f4;
   --jp-info-color3: #c9b4f4;
-
   --jp-cell-padding: 5px;
   --jp-cell-collapser-width: 8px;
   --jp-cell-collapser-min-height: 20px;
@@ -259,7 +258,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* A custom blend of MD grey and blue 600
    * See https://meyerweb.com/eric/tools/color-blend/#546E7A:1E88E5:5:hex */
-  --jp-cell-inprompt-font-color: #93DDFB;
+  --jp-cell-inprompt-font-color: #93ddfb;
 
   /* A custom blend of MD grey and orange 600
    * https://meyerweb.com/eric/tools/color-blend/#546E7A:F4511E:5:hex */
@@ -322,7 +321,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   --jp-editor-selected-background: #4f5b66;
   --jp-editor-selected-focused-background: #343d46;
-  --jp-editor-cursor-color :#c0c5ce;
+  --jp-editor-cursor-color: #c0c5ce;
 
   /* Code mirror specific styles */
 
@@ -333,12 +332,12 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-variable-color: #dda2f6;
   --jp-mirror-editor-variable-2-color: #85b1e0;
   --jp-mirror-editor-variable-3-color: #4d8acb;
-  --jp-mirror-editor-punctuation-color: #93DDFB;
+  --jp-mirror-editor-punctuation-color: #93ddfb;
   --jp-mirror-editor-property-color: #85b1e0;
   --jp-mirror-editor-operator-color: #de97f2;
-  --jp-mirror-editor-comment-color: #555C77;
+  --jp-mirror-editor-comment-color: #555c77;
   --jp-mirror-editor-string-color: #9aefea;
-  --jp-mirror-editor-string-2-color: #93DDFB;
+  --jp-mirror-editor-string-2-color: #93ddfb;
   --jp-mirror-editor-meta-color: #a571f4;
   --jp-mirror-editor-qualifier-color: #7e7edd;
   --jp-mirror-editor-builtin-color: #7673d0;
@@ -354,8 +353,8 @@ all of MD as it is not optimized for dense, information rich UIs.
   /* User colors */
 
   --jp-collaborator-color1: #7e7edd;
-  --jp-collaborator-color2: #A571F4;
-  --jp-collaborator-color3: #9AEFEA;
+  --jp-collaborator-color2: #a571f4;
+  --jp-collaborator-color3: #9aefea;
   --jp-collaborator-color4: #dda2f6;
   --jp-collaborator-color5: #b9bed5;
   --jp-collaborator-color6: #b9bed5;
@@ -376,7 +375,6 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-switch-color: #a2b8d0;
   --jp-switch-true-position-color: #dda2f6;
   --jp-switch-cursor-color: #4f5b66;
-
   --jp-vega-background: #1c1f26;
 
   /* Sidebar-related styles */
