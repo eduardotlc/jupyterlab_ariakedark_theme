@@ -1,6 +1,6 @@
 {
     "name": "jupyterlab_ariakedark_theme",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "An ariake dark palette based JupyterLab theme extension.",
     "keywords": [
         "jupyter",
