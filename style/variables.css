@@ -283,7 +283,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* Rendermime styles */
 
-  --jp-rendermime-error-background: #e05252;
+  --jp-rendermime-error-background: #5b3542;
   --jp-rendermime-table-row-background: #3b5364;
   --jp-rendermime-table-row-hover-background: #2a2d37;
 
