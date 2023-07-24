@@ -1,4 +1,5 @@
 # Jupyterlab Ariake Dark Theme
+
 ---
 
 **An ariake dark palette based JupyterLab theme extension.**
@@ -14,18 +15,15 @@
 
 <eduardotcampos@usp.br> **[2023]**
 
-
 ## Appearance
 
 ![Example 1](./images/jupyterlab_ariakedark_1.png)
 
 ![Example 2](./images/jupyterlab_ariakedark_2.png)
 
-
 ## Requirements
 
 - JupyterLab >= 4.0.0
-
 
 ## Install
 
@@ -41,7 +39,6 @@ To check the installation, execute:
 jupyter labextension list
 ```
 
-
 ## Uninstall
 
 To remove the extension, execute:
@@ -49,7 +46,6 @@ To remove the extension, execute:
 ```bash
 pip uninstall jupyterlab_ariakedark_theme
 ```
-
 
 ## Contributing
 
@@ -64,7 +60,6 @@ Note: You will need NodeJS to build the extension package.
 The `jlpm` command is JupyterLab's pinned version of
 [yarn](https://yarnpkg.com/) that is installed with JupyterLab. You may use
 `yarn` or `npm` in lieu of `jlpm` below.
-
 
 - Clone the repo to your local environment:
 
@@ -98,7 +93,6 @@ jlpm build
 
 You can watch the source directory and run JupyterLab at the same time in different terminals to watch for changes in the extension's source and automatically rebuild the extension.
 
-
 - Watch the source directory in one terminal, automatically rebuilding when needed:
 
 ```bash
@@ -128,4 +122,3 @@ pip uninstall jupyterlab_ariakedark_theme
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
 folder is located. Then you can remove the symlink named `jupyterlab_ariakedark_theme` within that folder.
-
