@@ -1,4 +1,6 @@
-# jupyterlab_ariakedark_theme
+# Jupyterlab Ariake Dark Theme
+---
+---
 
 **An ariake dark palette based JupyterLab theme extension.**
 
@@ -8,22 +10,28 @@
 
 [ci-badge]: https://github.com/eduardotlc/jupyterlab_ariakedark_theme/workflows/Build/badge.svg
 [ci]: https://github.com/eduardotlc/jupyterlab_ariakedark_theme/actions/workflows/build.yml
-[pypi-badge]: https://badge.fury.io/py/jupyterlab-ariakedark-theme.svg
+[pypi-badge]: ./images/pypi_badge.svg
 [pypi]: https://badge.fury.io/py/jupyterlab-ariakedark-theme
 
-eduardotcampos@usp.br [2023]
+<eduardotcampos@usp.br> **[2023]**
+
 
 ## Appearance
+---
 
 ![Example 1](./images/jupyterlab_ariakedark_1.png)
 
 ![Example 2](./images/jupyterlab_ariakedark_2.png)
 
+
 ## Requirements
+---
 
 - JupyterLab >= 4.0.0
 
+
 ## Install
+---
 
 To install the extension, execute:
 
@@ -31,7 +39,9 @@ To install the extension, execute:
 pip install jupyterlab_ariakedark_theme
 ```
 
+
 ## Uninstall
+---
 
 To remove the extension, execute:
 
@@ -39,7 +49,15 @@ To remove the extension, execute:
 pip uninstall jupyterlab_ariakedark_theme
 ```
 
+
 ## Contributing
+---
+
+To make personal customizations to the theme, edit de /style/variables.css file, and then
+run the development install steps listed bellow.
+
+Feel free to make any optimization and pull request, this theme is still under development
+and any contribution is very much appreciated.
 
 ### Development install
 
@@ -53,7 +71,7 @@ The `jlpm` command is JupyterLab's pinned version of
 # Clone the repo to your local environment
 # Change directory to the jupyterlab_ariakedark_theme directory
 # Install package in development mode
-pip install -e "."
+pip install -ve "."
 # Link your development version of the extension with JupyterLab
 jupyter labextension develop . --overwrite
 # Rebuild extension Typescript source after making changes
