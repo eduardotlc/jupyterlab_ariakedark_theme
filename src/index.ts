@@ -20,7 +20,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
     const style = 'jupyterlab_ariakedark_theme/index.css';
 
     manager.register({
-      name: 'jupyterlab_ariakedark_theme',
+      name: 'Ariake Dark',
       isLight: false,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
