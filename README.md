@@ -4,10 +4,9 @@
 
 **An ariake dark palette based JupyterLab theme extension.**
 
-|       build       |      PyPi              |      License           |        Update |
-| :---------------: |  :-------------------: | :--------------------: | :-----------: |
-| [![ci-badge]][ci] |  [![pypi-badge]][pypi] | [![mitbadge]][license] | ![lastupdate] | 
-
+|       build       |         PyPi          |        License         |    Update     |
+| :---------------: | :-------------------: | :--------------------: | :-----------: |
+| [![ci-badge]][ci] | [![pypi-badge]][pypi] | [![mitbadge]][license] | ![lastupdate] |
 
 [ci-badge]: https://github.com/eduardotlc/jupyterlab_ariakedark_theme/workflows/Build/badge.svg
 [ci]: https://github.com/eduardotlc/jupyterlab_ariakedark_theme/actions/workflows/build.yml
