@@ -4,113 +4,120 @@
 
 **An ariake dark palette based JupyterLab theme extension.**
 
-|       build       |         PyPi          |        License         |    Update     |
-| :---------------: | :-------------------: | :--------------------: | :-----------: |
-| [![ci-badge]][ci] | [![pypi-badge]][pypi] | [![mitbadge]][license] | ![lastupdate] |
+[![updatebadge]][update] [![pypibadge]][pypi] [![mitbadge]][license] [![ci-badge]][ci]
 
-[ci-badge]: https://github.com/eduardotlc/jupyterlab_ariakedark_theme/workflows/Build/badge.svg
+[![emailbadge]][email]
+
+[update]: https://github.com/eduardotlc/jupyterlab_ariakedark_theme/commits/master/
+[license]: https://opensource.org/licenses/mit
+[pypi]: https://pypi.org/project/jupyterlab-ariakedark-theme/
+[pypibadge]: https://img.shields.io/pypi/v/jupyterlab_ariakedark_theme.svg?logo=python&logoColor=yellow&color=7e7edd&style=for-the-badge
+[ci-badge]: https://img.shields.io/github/actions/workflow/status/eduardotlc/jupyterlab_ariakedark_theme/build.yml?style=for-the-badge&logo=github&logoColor=de97f2&color=68f1ad
 [ci]: https://github.com/eduardotlc/jupyterlab_ariakedark_theme/actions/workflows/build.yml
-[pypi-badge]: ./images/badge_pypi.svg
-[pypi]: https://badge.fury.io/py/jupyterlab-ariakedark-theme
-[mitbadge]: ./images/badgemit.svg
-[license]: https://opensource.org/licenses/MIT
-[lastupdate]: ./images/badgeupdate.svg
+[email]: eduardotcampos@usp.br
+[emailbadge]: https://img.shields.io/badge/Email-7e7edd?style=for-the-badge&logo=gmail
+[materialdarkerbadge]: https://img.shields.io/badge/Material_Darker-6363ab?style=for-the-badge&logo=jupyter
+[materialdarker]: https://github.com/eduardotlc/jupyterlab_materialdarker_theme
+[midnightseabadge]: https://img.shields.io/badge/Midnight_Sea-a571f4?style=for-the-badge&logo=jupyter
+[midnightsea]: https://github.com/eduardotlc/jupyterlab_midnightsea_theme
+[mitbadge]: https://img.shields.io/badge/License-MIT-9aefea?style=for-the-badge&logo=gitbook
+[updatebadge]: https://img.shields.io/badge/Updated-June_2024-93ddfb?style=for-the-badge&logo=googlecalendar
 
-<eduardotcampos@usp.br> **[2023]**
 
-## Appearance
+## appearance
 
-![Example 1](./images/jupyterlab_ariakedark_1.png)
+![example 1](./images/jupyterlab_ariakedark_1.png)
 
-![Example 2](./images/jupyterlab_ariakedark_2.png)
+![example 2](./images/jupyterlab_ariakedark_2.png)
 
-## Requirements
+## requirements
 
-- JupyterLab >= 4.0.0
+- jupyterlab >= 4.0.0
 
-## Install
+## install
 
-To install the extension, execute:
+to install the extension, execute:
 
 ```bash
 pip install jupyterlab_ariakedark_theme
 ```
 
-To check the installation, execute:
+to check the installation, execute:
 
 ```bash
 jupyter labextension list
 ```
 
-## Uninstall
+## uninstall
 
-To remove the extension, execute:
+to remove the extension, execute:
 
 ```bash
 pip uninstall jupyterlab_ariakedark_theme
 ```
 
-## Contributing
+## contributing
 
-To make personal customizations to the theme, edit the [variables.css](./style/variables.css) file, and then run the development install steps listed bellow.
+to make personal customizations to the theme, edit the [variables.css](./style/variables.css) file, and then run the development install steps listed bellow.
 
-Feel free to make [pending](./TODO.md) or other optimizations and pull requests, this theme is still under development and any contribution is very much appreciated.
+feel free to make [pending](./todo.md) or other optimizations and pull requests, this theme is still under development and any contribution is very much appreciated.
 
-### Development install
+### development install
 
-Note: You will need NodeJS to build the extension package.
+> [!NOTE]
+> You will need nodejs to build the extension package.
 
-The `jlpm` command is JupyterLab's pinned version of
-[yarn](https://yarnpkg.com/) that is installed with JupyterLab. You may use
+the `jlpm` command is jupyterlab's pinned version of
+[yarn](https://yarnpkg.com/) that is installed with jupyterlab. you may use
 `yarn` or `npm` in lieu of `jlpm` below.
 
-- Clone the repo to your local environment:
+- clone the repo to your local environment:
 
 ```bash
 git clone https://github.com/eduardotlc/jupyterlab_ariakedark_theme
 ```
 
-- Change directory to the jupyterlab_ariakedark_theme directory:
+- change directory to the jupyterlab_ariakedark_theme directory:
 
 ```bash
 cd jupyterlab_ariakedark_theme
 ```
 
-- Install package in development mode:
+- install package in development mode:
 
 ```bash
 pip install -ve "."
 ```
 
-- Link your development version of the extension with JupyterLab:
+- link your development version of the extension with jupyterlab:
 
 ```bash
 jupyter labextension develop . --overwrite
 ```
 
-- Rebuild extension Typescript source after making changes:
+- rebuild extension typescript source after making changes:
 
 ```bash
 jlpm build
 ```
 
-You can watch the source directory and run JupyterLab at the same time in different terminals to watch for changes in the extension's source and automatically rebuild the extension.
+you can watch the source directory and run jupyterlab at the same time in different terminals to watch for changes in the extension's source and automatically rebuild the extension.
 
-- Watch the source directory in one terminal, automatically rebuilding when needed:
+- watch the source directory in one terminal, automatically rebuilding when needed:
 
 ```bash
 jlpm watch
 ```
 
-- Run JupyterLab in another terminal:
+- run jupyterlab in another terminal:
 
 ```bash
 jupyter lab
 ```
 
-With the watch command running, every saved change will immediately be built locally and available in your running JupyterLab. Refresh JupyterLab to load the change in your browser (you may need to wait several seconds for the extension to be rebuilt).
+with the watch command running, every saved change will immediately be built locally and available in your running jupyterlab. refresh jupyterlab to load the change in your browser (you may need to wait several seconds for the extension to be rebuilt).
 
-By default, the `jlpm build` command generates the source maps for this extension to make it easier to debug using the browser dev tools. To also generate source maps for the JupyterLab core extensions, you can run the following command:
+by default, the `jlpm build` command generates the source maps for this extension to make it easier to debug using the browser dev tools. To also generate source maps for the JupyterLab core extensions, you can run the following command:
 
 ```bash
 jupyter lab build --minimize=False
@@ -130,6 +137,6 @@ folder is located. Then you can remove the symlink named `jupyterlab_ariakedark_
 
 See my others Jupyter Lab themes
 
-[Material Darker](https://github.com/eduardotlc/jupyterlab_materialdarker_theme)
+[![materialdarkerbadge]][materialdarker]
 
-[Midnight Sea](https://github.com/eduardotlc/jupyterlab_midnightsea_theme)
+[![midnightseabadge]][midnightsea]

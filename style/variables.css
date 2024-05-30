@@ -378,4 +378,14 @@ all of MD as it is not optimized for dense, information rich UIs.
   /* Sidebar-related styles */
 
   --jp-sidebar-min-width: 180px;
+  .jp-DirListing-itemText {
+    color: #cae4ef,
+  }
+  .jp-icon-contrast0[fill] {
+    fill: #A571F4;
+  }
+  .jp-DirListing-content {
+    list-style-type: none;
+    fill: #4acead;
+  }
 }
