@@ -14,7 +14,7 @@
 [pypibadge]: https://img.shields.io/pypi/v/jupyterlab_ariakedark_theme.svg?logo=python&logoColor=yellow&color=7e7edd&style=for-the-badge
 [ci-badge]: https://img.shields.io/github/actions/workflow/status/eduardotlc/jupyterlab_ariakedark_theme/build.yml?style=for-the-badge&logo=github&logoColor=de97f2&color=68f1ad
 [ci]: https://github.com/eduardotlc/jupyterlab_ariakedark_theme/actions/workflows/build.yml
-[email]: eduardotcampos@usp.br
+[email]: mailto:eduardotcampos@usp.br
 [emailbadge]: https://img.shields.io/badge/Email-7e7edd?style=for-the-badge&logo=gmail
 [materialdarkerbadge]: https://img.shields.io/badge/Material_Darker-6363ab?style=for-the-badge&logo=jupyter
 [materialdarker]: https://github.com/eduardotlc/jupyterlab_materialdarker_theme
@@ -60,7 +60,7 @@ pip uninstall jupyterlab_ariakedark_theme
 
 to make personal customizations to the theme, edit the [variables.css](./style/variables.css) file, and then run the development install steps listed bellow.
 
-feel free to make [pending](./todo.md) or other optimizations and pull requests, this theme is still under development and any contribution is very much appreciated.
+feel free to make [pending](./TODO.md) or other optimizations and pull requests, this theme is still under development and any contribution is very much appreciated.
 
 ### development install
 
