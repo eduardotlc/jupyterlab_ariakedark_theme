@@ -379,7 +379,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   --jp-sidebar-min-width: 180px;
 
-  .jp-dirListing-itemText {
+  .jp-dirlisting-itemtext {
     color: #cae4ef;
   }
 
@@ -387,7 +387,7 @@ all of MD as it is not optimized for dense, information rich UIs.
     fill: #a571f4;
   }
 
-  .jp-dirListing-content {
+  .jp-dirlisting-content {
     list-style-type: none;
     fill: #4acead;
   }
