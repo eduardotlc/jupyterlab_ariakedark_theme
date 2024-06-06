@@ -23,7 +23,6 @@
 [mitbadge]: https://img.shields.io/badge/License-MIT-9aefea?style=for-the-badge&logo=gitbook
 [updatebadge]: https://img.shields.io/badge/Updated-June_2024-93ddfb?style=for-the-badge&logo=googlecalendar
 
-
 ## appearance
 
 ![example 1](./images/jupyterlab_ariakedark_1.png)
