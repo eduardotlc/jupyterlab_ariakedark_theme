@@ -37,7 +37,7 @@ exclude = [".github", "binder"]
 
 [tool.hatch.build.targets.wheel.shared-data]
 "jupyterlab_ariakedark_theme/labextension" = "share/jupyter/labextensions/jupyterlab_ariakedark_theme"
-"install.json" = "share/jupyter/labextensions/jupyterlab_ariakedark_theme/install.json"
+#"install.json" = "share/jupyter/labextensions/jupyterlab_ariakedark_theme/install.json"
 
 [tool.hatch.build.hooks.version]
 path = "jupyterlab_ariakedark_theme/_version.py"
