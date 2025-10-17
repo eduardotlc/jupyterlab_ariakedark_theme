@@ -4,9 +4,7 @@
 
 **An ariake dark palette based JupyterLab theme extension.**
 
-[![updatebadge]][update] [![pypibadge]][pypi] [![mitbadge]][license] [![ci-badge]][ci]
-
-[![emailbadge]][email]
+[![updatebadge]][update] [![pypibadge]][pypi] [![mitbadge]][license][![ci-badge]][ci] [![emailbadge]][email]
 
 [update]: https://github.com/eduardotlc/jupyterlab_ariakedark_theme/commits/master/
 [license]: https://opensource.org/licenses/mit
@@ -14,20 +12,16 @@
 [pypibadge]: https://img.shields.io/pypi/v/jupyterlab_ariakedark_theme.svg?logo=python&logoColor=yellow&color=7e7edd&style=for-the-badge
 [ci-badge]: https://img.shields.io/github/actions/workflow/status/eduardotlc/jupyterlab_ariakedark_theme/build.yml?style=for-the-badge&logo=github&logoColor=de97f2&color=68f1ad
 [ci]: https://github.com/eduardotlc/jupyterlab_ariakedark_theme/actions/workflows/build.yml
-[email]: mailto:eduardotcampos@usp.br
+[email]: mailto:eduardotcampos@hotmail.com
 [emailbadge]: https://img.shields.io/badge/Email-7e7edd?style=for-the-badge&logo=gmail
 [materialdarkerbadge]: https://img.shields.io/badge/Material_Darker-6363ab?style=for-the-badge&logo=jupyter
 [materialdarker]: https://github.com/eduardotlc/jupyterlab_materialdarker_theme
 [midnightseabadge]: https://img.shields.io/badge/Midnight_Sea-a571f4?style=for-the-badge&logo=jupyter
 [midnightsea]: https://github.com/eduardotlc/jupyterlab_midnightsea_theme
 [mitbadge]: https://img.shields.io/badge/License-MIT-9aefea?style=for-the-badge&logo=gitbook
-[updatebadge]: https://img.shields.io/badge/Updated-June_2024-93ddfb?style=for-the-badge&logo=googlecalendar
+[updatebadge]: https://img.shields.io/badge/Updated-Oct._2025-93ddfb?style=for-the-badge&logo=googlecalendar
 
-## appearance
-
-![example 1](./images/jupyterlab_ariakedark_1.png)
-
-![example 2](./images/jupyterlab_ariakedark_2.png)
+![visual](./images/jupyterlab_ariakedark.png)
 
 ## requirements
 
