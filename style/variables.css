@@ -2,6 +2,7 @@
 | Copyright (c) Eduardo Campos | eduardotcampos@hotmail.com
 | Distributed under the terms of the Modified BSD License.
 |--------------------------------------------------------------------------- */
+
 /*
 
 Many variables appear in an ordered sequence (0,1,2,3). These sequences
@@ -98,31 +99,40 @@ inlay_hint = '#a96fed'
     0.12
   );
   --jp-elevation-z0: none;
-  --jp-elevation-z1: 0 2px 1px -1px var(--jp-shadow-umbra-color),
+  --jp-elevation-z1:
+    0 2px 1px -1px var(--jp-shadow-umbra-color),
     0 1px 1px 0 var(--jp-shadow-penumbra-color),
     0 1px 3px 0 var(--jp-shadow-ambient-color);
-  --jp-elevation-z2: 0 3px 1px -2px var(--jp-shadow-umbra-color),
+  --jp-elevation-z2:
+    0 3px 1px -2px var(--jp-shadow-umbra-color),
     0 2px 2px 0 var(--jp-shadow-penumbra-color),
     0 1px 5px 0 var(--jp-shadow-ambient-color);
-  --jp-elevation-z4: 0 2px 4px -1px var(--jp-shadow-umbra-color),
+  --jp-elevation-z4:
+    0 2px 4px -1px var(--jp-shadow-umbra-color),
     0 4px 5px 0 var(--jp-shadow-penumbra-color),
     0 1px 10px 0 var(--jp-shadow-ambient-color);
-  --jp-elevation-z6: 0 3px 5px -1px var(--jp-shadow-umbra-color),
+  --jp-elevation-z6:
+    0 3px 5px -1px var(--jp-shadow-umbra-color),
     0 6px 10px 0 var(--jp-shadow-penumbra-color),
     0 1px 18px 0 var(--jp-shadow-ambient-color);
-  --jp-elevation-z8: 0 5px 5px -3px var(--jp-shadow-umbra-color),
+  --jp-elevation-z8:
+    0 5px 5px -3px var(--jp-shadow-umbra-color),
     0 8px 10px 1px var(--jp-shadow-penumbra-color),
     0 3px 14px 2px var(--jp-shadow-ambient-color);
-  --jp-elevation-z12: 0 7px 8px -4px var(--jp-shadow-umbra-color),
+  --jp-elevation-z12:
+    0 7px 8px -4px var(--jp-shadow-umbra-color),
     0 12px 17px 2px var(--jp-shadow-penumbra-color),
     0 5px 22px 4px var(--jp-shadow-ambient-color);
-  --jp-elevation-z16: 0 8px 10px -5px var(--jp-shadow-umbra-color),
+  --jp-elevation-z16:
+    0 8px 10px -5px var(--jp-shadow-umbra-color),
     0 16px 24px 2px var(--jp-shadow-penumbra-color),
     0 6px 30px 5px var(--jp-shadow-ambient-color);
-  --jp-elevation-z20: 0 10px 13px -6px var(--jp-shadow-umbra-color),
+  --jp-elevation-z20:
+    0 10px 13px -6px var(--jp-shadow-umbra-color),
     0 20px 31px 3px var(--jp-shadow-penumbra-color),
     0 8px 38px 7px var(--jp-shadow-ambient-color);
-  --jp-elevation-z24: 0 11px 15px -7px var(--jp-shadow-umbra-color),
+  --jp-elevation-z24:
+    0 11px 15px -7px var(--jp-shadow-umbra-color),
     0 24px 38px 3px var(--jp-shadow-penumbra-color),
     0 9px 46px 8px var(--jp-shadow-ambient-color);
 
@@ -147,7 +157,6 @@ inlay_hint = '#a96fed'
   --jp-shortcuts-button-background: var(--jp-brand-color3);
   --jp-shortcuts-button-hover-background: var(--jp-brand-color2);
 
-
   /* UI Fonts
    *
    * The UI font CSS variables are used for the typography all of the JupyterLab
@@ -163,8 +172,9 @@ inlay_hint = '#a96fed'
   --jp-ui-font-size1: 16px; /* Base font size */
   --jp-ui-font-size2: 1.2em;
   --jp-ui-font-size3: 1.44em;
-  --jp-ui-font-family: -apple-system, blinkmacsystemfont, 'Segoe UI', helvetica,
-    arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --jp-ui-font-family:
+    -apple-system, blinkmacsystemfont, "Segoe UI", helvetica, arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
   /*
    * Use these font colors against the corresponding main layout colors.
@@ -174,9 +184,9 @@ inlay_hint = '#a96fed'
    */
 
   --jp-ui-font-color0: rgba(133.11, 176.97, 223.125, 1);
-  --jp-ui-font-color1: rgba(133.11, 176.97, 223.125, 0.90);
-  --jp-ui-font-color2: rgba(133.11, 176.97, 223.125, 0.70);
-  --jp-ui-font-color3: rgba(133.11, 176.97, 223.125, 0.60);
+  --jp-ui-font-color1: rgba(133.11, 176.97, 223.125, 0.9);
+  --jp-ui-font-color2: rgba(133.11, 176.97, 223.125, 0.7);
+  --jp-ui-font-color3: rgba(133.11, 176.97, 223.125, 0.6);
 
   /*
    * Use these against the brand/accent/warn/error colors.
@@ -185,9 +195,9 @@ inlay_hint = '#a96fed'
    * Base color: #292d36
    */
   --jp-ui-inverse-font-color0: rgba(41.055, 44.88, 54.06, 1);
-  --jp-ui-inverse-font-color0: rgba(41.055, 44.88, 54.06, 0.90);
-  --jp-ui-inverse-font-color0: rgba(41.055, 44.88, 54.06, 0.70);
-  --jp-ui-inverse-font-color0: rgba(41.055, 44.88, 54.06, 0.40);
+  --jp-ui-inverse-font-color1: rgba(41.055, 44.88, 54.06, 0.9);
+  --jp-ui-inverse-font-color2: rgba(41.055, 44.88, 54.06, 0.7);
+  --jp-ui-inverse-font-color3: rgba(41.055, 44.88, 54.06, 0.4);
 
   /* Content Fonts
    *
@@ -224,8 +234,9 @@ inlay_hint = '#a96fed'
   --jp-content-font-color3: rgba(133.11, 176.97, 223.125, 1);
   --jp-content-link-color: var(--md-cyan-400, #7ef1ea);
   --jp-content-link-visited-color: var(--md-purple-500, #a96fed);
-  --jp-content-font-family: -apple-system, blinkmacsystemfont, 'Segoe UI',
-    helvetica, arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --jp-content-font-family:
+    -apple-system, blinkmacsystemfont, "Segoe UI", helvetica, arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
   /*
    * Code Fonts
@@ -236,7 +247,8 @@ inlay_hint = '#a96fed'
   --jp-code-font-size: 16px;
   --jp-code-line-height: 1.3077; /* 17px for 13px base */
   --jp-code-padding: 0.385em; /* 5px for 13px base */
-  --jp-code-font-family-default: "JetBrains Mono", "Jet Brains Mono", "DejaVu Sans Mono", monospace;
+  --jp-code-font-family-default:
+    "JetBrains Mono", "Jet Brains Mono", "DejaVu Sans Mono", monospace;
   --jp-code-font-family: var(--jp-code-font-family-default);
 
   /* This gives a magnification of about 125% in presentation mode over normal. */
@@ -277,7 +289,7 @@ inlay_hint = '#a96fed'
   --jp-brand-color1: #5245dd;
   --jp-brand-color2: #e89dfc;
   --jp-brand-color3: #a7d3fb;
-  --jp-brand-color4: #61e2ff
+  --jp-brand-color4: #61e2ff;
   --jp-accent-color0: #7e7edd;
   --jp-accent-color1: #7a69dd;
   --jp-accent-color2: #5245dd;
@@ -311,12 +323,11 @@ inlay_hint = '#a96fed'
   --jp-cell-editor-active-background: #232830;
   --jp-cell-editor-active-border-color: #3f464a;
   --jp-cell-prompt-width: 64px;
-  --jp-cell-prompt-font-family: 'Source Code Pro', monospace;
+  --jp-cell-prompt-font-family: "Source Code Pro", monospace;
   --jp-cell-prompt-letter-spacing: 0;
   --jp-cell-prompt-opacity: 1;
   --jp-cell-prompt-not-active-opacity: 0.5;
   --jp-cell-prompt-not-active-font-color: #656772;
-
   --jp-cell-inprompt-font-color: #93ddfb;
   --jp-cell-outprompt-font-color: #dda2f6;
 
@@ -416,7 +427,7 @@ inlay_hint = '#a96fed'
   --jp-collaborator-color6: #fbdf00;
   --jp-collaborator-color7: #48afa7;
 
-    /* Button colors */
+  /* Button colors */
   --jp-accept-color-normal: var(--md-blue-900, #7f7ce3);
   --jp-accept-color-hover: var(--md-blue-800, #4f71ff);
   --jp-accept-color-active: var(--md-blue-700, #7ef1ea);
@@ -426,7 +437,6 @@ inlay_hint = '#a96fed'
   --jp-reject-color-normal: var(--md-grey-800, #504f84);
   --jp-reject-color-hover: var(--md-grey-700, #79829f);
   --jp-reject-color-active: var(--md-grey-600, #666793);
-
 
   /* File or activity icons and switch semantic variables */
 
@@ -447,7 +457,7 @@ inlay_hint = '#a96fed'
   /* Sidebar-related styles */
 
   --jp-sidebar-min-width: 180px;
-  --jp-search-toggle-off-opacity: 1.0;
+  --jp-search-toggle-off-opacity: 1;
   --jp-search-toggle-hover-opacity: 0.7;
   --jp-search-toggle-on-opacity: 0.5;
   --jp-search-selected-match-background-color: #dda2f6;
@@ -493,7 +503,8 @@ inlay_hint = '#a96fed'
 }
 
 /* Inactive tab title */
-.lm-DockPanel-tabBar, .lm-TabPanel-tabBar {
+.lm-DockPanel-tabBar,
+.lm-TabPanel-tabBar {
   color: #504f84;
 }
 
@@ -502,22 +513,21 @@ inlay_hint = '#a96fed'
   color: #e89dfc;
 }
 
-/* Not active notebook cell number */
-.jp-Notebook .jp-Cell:not(.jp-mod-active) .jp-InputPrompt {
-  color: #4f71ff;
-}
-
 /* Active notebook cell number */
 .jp-InputPrompt {
   color: #e89dfc;
-  border: var(--darkreader-border--jp-border-width) solid transparent;
+  border: var(--darkreader-border, --jp-border-width) solid transparent;
+}
+
+/* Not active notebook cell number */
+.jp-Notebook .jp-Cell:not(.jp-mod-active) .jp-InputPrompt {
+  color: #4f71ff;
 }
 
 /* Markdown Cells */
 h1 {
   color: #e89dfc;
 }
-
 
 h2 {
   color: #72f1b8;

@@ -14,7 +14,7 @@
     "license": "BSD-3-Clause",
     "author": {
         "name": "Eduardo Campos",
-        "email": "eduardotcampos@usp.br"
+        "email": "eduardotcampos@hotmail.com"
     },
     "files": [
         "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
@@ -145,7 +145,7 @@
             "@typescript-eslint/no-use-before-define": "off",
             "@typescript-eslint/quotes": [
                 "error",
-                "single",
+                "double",
                 {
                     "avoidEscape": true,
                     "allowTemplateLiterals": false
@@ -160,7 +160,7 @@
         }
     },
     "prettier": {
-        "singleQuote": true,
+        "singleQuote": false,
         "trailingComma": "none",
         "arrowParens": "avoid",
         "endOfLine": "auto",
@@ -184,7 +184,14 @@
             "selector-no-vendor-prefix": null,
             "value-no-vendor-prefix": null,
             "alpha-value-notation": null,
-            "color-function-notation": null
+            "color-function-notation": null,
+            "selector-class-pattern": [
+                "^(?:[a-z][a-z0-9-]*|jp-[A-Za-z0-9-]+|lm-[A-Za-z0-9-]+)$",
+                {
+                    "resolveNestedSelectors": true,
+                    "message": "Use kebab-case for your own classes; jp-/lm- upstream classes are allowed."
+                }
+            ]
         }
     }
 }
