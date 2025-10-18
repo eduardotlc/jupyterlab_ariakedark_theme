@@ -192,12 +192,12 @@ inlay_hint = '#a96fed'
    * Use these against the brand/accent/warn/error colors.
    * These will typically go from light to darker, in both a dark and light theme.
    *
-   * Base color: #292d36
+   * Base color: #e89dfc
    */
-  --jp-ui-inverse-font-color0: rgba(41.055, 44.88, 54.06, 1);
-  --jp-ui-inverse-font-color1: rgba(41.055, 44.88, 54.06, 0.9);
-  --jp-ui-inverse-font-color2: rgba(41.055, 44.88, 54.06, 0.7);
-  --jp-ui-inverse-font-color3: rgba(41.055, 44.88, 54.06, 0.4);
+  --jp-ui-inverse-font-color0: rgba(232.05, 157.08, 251.94, 1);
+  --jp-ui-inverse-font-color1: rgba(232.05, 157.08, 251.94, 0.9);
+  --jp-ui-inverse-font-color2: rgba(232.05, 157.08, 251.94, 0.7);
+  --jp-ui-inverse-font-color3: rgba(232.05, 157.08, 251.94, 0.6);
 
   /* Content Fonts
    *
@@ -286,7 +286,7 @@ inlay_hint = '#a96fed'
   /* Brand/accent */
 
   --jp-brand-color0: #9aefea;
-  --jp-brand-color1: #5245dd;
+  --jp-brand-color1: #504f84;
   --jp-brand-color2: #e89dfc;
   --jp-brand-color3: #a7d3fb;
   --jp-brand-color4: #61e2ff;
@@ -513,6 +513,11 @@ inlay_hint = '#a96fed'
   color: #e89dfc;
 }
 
+/* Kernel bottom status bar name */
+.jp-StatusBar-TextItem {
+  color: #e89dfc;
+}
+
 /* Active notebook cell number */
 .jp-InputPrompt {
   color: #e89dfc;
@@ -543,4 +548,9 @@ h4 {
 
 h5 {
   color: #4f71ff;
+}
+
+.jp-RenderedHTMLCommon strong {
+  font-weight: bold;
+  color: #7ef1ea;
 }
